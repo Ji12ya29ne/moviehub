@@ -3,6 +3,7 @@ import Pricing from './components/pages/pricing/pricing';
 import Signup from './components/pages/signup/Signup';
 import Discover from './components/pages/discover/discover';
 import Home from './components/pages/home/home';
+import Signin from './components/pages/signin/Signin';
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/discover' component={Discover}/>
         <Route exact path='/pricing' component={Pricing}/>
         <Route exact path='/sign-up' component={Signup}/>
+        <Route exact path='/sign-in' component={Signin}/>
       </Switch>
     </div>
   );
