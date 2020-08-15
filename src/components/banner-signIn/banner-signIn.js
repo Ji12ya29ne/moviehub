@@ -1,5 +1,5 @@
 import React from 'react';
-import "./banner-signIn.css"
+import "./banner-signIn.scss"
 import BannerImg from "../../assets/images/banner-img4.jpg"
 
 

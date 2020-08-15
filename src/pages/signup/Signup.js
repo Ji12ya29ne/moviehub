@@ -16,7 +16,7 @@ function Signup() {
           <form>
             <div class="form-group">
               <label for="Email1">Email</label>
-              <input type="email" class="form-control " id="Email1" />
+              <input type="email" className="form-control " id="Email1" />
             </div>
             <div class="form-group">
               <label for="Email2">Confirm email</label>
@@ -38,7 +38,7 @@ function Signup() {
               Sign Up
             </button>
             <p style={{ color: '#808584' }}>
-              already have an account? <Link to="/signin">Sign in</Link> instead
+              already have an account? <Link to="/sign-in">Sign in</Link> instead
             </p>
           </form>
         </div>
