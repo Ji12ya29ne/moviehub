@@ -5,7 +5,8 @@ import Discover from "./pages/discover/discover";
 import Home from "./pages/home/home";
 import Signin from './pages/signin/Signin';
 import MovieDetails from "./pages/movie-details/movie-details.jsx";
-import { Switch, Route } from "react-router-dom";
+import Page404 from './pages/page404/page404';
+import { Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route exact path="/sign-up" component={Signup} />
         <Route exact path='/sign-in' component={Signin}/>
         <Route exact path="/view/:type/:id" component={MovieDetails}/>
+        <Route exact path='/404' component={Page404}/>
+        <Redirect to='/404' />
       </Switch>
     </div>
   );
