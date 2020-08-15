@@ -9,7 +9,7 @@ const Home = () => {
         <Nav/>
         <LandingBanner/>
         <InfoCallout />
-        <Footer/>
+        <Footer/>  
       </div>
     );
 }
