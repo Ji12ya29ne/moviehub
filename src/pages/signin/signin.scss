@@ -4,9 +4,8 @@
 }
 .SignIn{
     display: flex;
-}
-
-.SignIn-form{
+    margin-top: 10vh;
+    .SignIn-form{
     width: 40%;
     height: 100vh;
     background-color: #000000;
@@ -125,3 +124,5 @@ hr{
     }
     
 }
+}
+

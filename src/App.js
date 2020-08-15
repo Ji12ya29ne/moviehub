@@ -3,7 +3,7 @@ import Pricing from "./pages/pricing/pricing";
 import Signup from "./pages/signup/Signup";
 import Discover from "./pages/discover/discover";
 import Home from "./pages/home/home";
-import Signin from './components/pages/signin/Signin';
+import Signin from './pages/signin/Signin';
 import MovieDetails from "./pages/movie-details/movie-details.jsx";
 import Page404 from './pages/page404/page404';
 import { Switch, Route, Redirect } from "react-router-dom";

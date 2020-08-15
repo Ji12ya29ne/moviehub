@@ -6,8 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.intro-h2 h2{
+    
+    .intro-h2 h2{
     width: 742px;
     height: 150px;
     font-family: "Roboto";
@@ -17,9 +17,10 @@
     line-height: 75px;
     text-align: center;
     color: #fff;
-}
-.landing-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    }
+    .landing-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
