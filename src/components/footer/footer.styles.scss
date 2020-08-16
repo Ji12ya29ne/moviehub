@@ -1,0 +1,23 @@
+.footer-container {
+    background-color: #000;
+    color: #757575;
+    .footer-text {
+        width: 80%;
+        margin: auto;
+        @media screen and (max-width: 480px) {
+            width: 100%;
+        }
+        .footer-links {
+            width: 100%;
+            .footer-box {
+                ul {
+                    list-style: none;
+                    li {
+                        line-height: 3;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
