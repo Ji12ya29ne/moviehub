@@ -31,18 +31,54 @@ a:link {
   color: red;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 893px) {
   /* start of phone styles */
+
+  @media screen and (max-width: 479px) {
+    /* start of phone styles */
+    .signupcontainer {
+      width: 250px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .form-control {
+      width: 250px;
+    }
+    #signu {
+      width: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
   .signupcontainer {
-    width: 250px;
+    width: 350px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
   }
   .form-control {
-    width: 250px;
+    width: 350px;
   }
   #signu {
-    width: 250px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .signupcontainer {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .form-control {
+    width: 350px;
+  }
+  #signu {
+    width: 350px;
   }
 }
